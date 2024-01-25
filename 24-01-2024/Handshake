@@ -1,0 +1,14 @@
+
+#Python-Handshake
+
+
+Import math
+Import os
+Import random
+Import re
+Import sys
+
+t = int(input().strip())
+For _ in range(t):
+    n = int(input().strip())
+    Print(n * (n – 1) // 2)
