@@ -1,0 +1,25 @@
+Import math
+Import os
+Import random
+Import re
+Import sys
+
+
+def gameWithCells(n,m):
+    cells = math.ceil(n/2) * math.ceil(m/2)
+    Return cells
+    
+If __name__ == ‘__main__’:
+    Fptr = open(os.environ[‘OUTPUT_PATH’], ‘w’)
+
+    First_multiple_input = input().rstrip().split()
+
+    N = int(first_multiple_input[0])
+
+    M = int(first_multiple_input[1])
+
+    Result = gameWithCells(n, m)
+
+    Fptr.write(str(result) + ‘\n’)
+
+    Fptr.close()    
